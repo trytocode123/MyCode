@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+body {
+   margin: 0;
+}
+.header {
+  display: flex;
+  height: 37px;
+}
+.header-brand {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+  width: 66px;
+}
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  list-style: none;
+  align-items: center;
+}
+
+.profuct-item {
+  margin-right: 4px;
+}
